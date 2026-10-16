@@ -1,0 +1,1 @@
+/opt/homebrew/bin/aarch64-apple-darwin25-g++-16 -g -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/binary_search_tree.dir/main.cpp.o -o binary_search_tree

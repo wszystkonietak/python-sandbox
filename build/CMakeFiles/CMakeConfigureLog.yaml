@@ -1,0 +1,2306 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+    searched_directories:
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/uname"
+      - "/opt/homebrew/bin/uname"
+      - "/opt/homebrew/sbin/uname"
+      - "/usr/local/bin/uname"
+      - "/System/Cryptexes/App/usr/bin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Darwin - 27.0.0 - arm64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeUnixFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gmake"
+      - "make"
+      - "smake"
+    candidate_directories:
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+    searched_directories:
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/gmake"
+      - "/opt/homebrew/bin/gmake"
+      - "/opt/homebrew/sbin/gmake"
+      - "/usr/local/bin/gmake"
+      - "/System/Cryptexes/App/usr/bin/gmake"
+      - "/usr/bin/gmake"
+      - "/bin/gmake"
+      - "/usr/sbin/gmake"
+      - "/sbin/gmake"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/gmake"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/gmake"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/gmake"
+      - "/pkg/env/global/bin/gmake"
+      - "/Library/Apple/usr/bin/gmake"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/make"
+      - "/opt/homebrew/bin/make"
+      - "/opt/homebrew/sbin/make"
+      - "/usr/local/bin/make"
+      - "/System/Cryptexes/App/usr/bin/make"
+    found: "/usr/bin/make"
+    search_context:
+      ENV{PATH}:
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/opt/homebrew/share/cmake/Modules/"
+    found: "/opt/homebrew/share/cmake/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /opt/homebrew/bin/aarch64-apple-darwin25-gcc-16 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /Users/wszystkonietak/Documents/projects/python-sandbox/build/CMakeFiles/4.3.3/CompilerIdC/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "aarch64-apple-darwin25-ar-16"
+      - "aarch64-apple-darwin25-ar"
+      - "ar-16"
+      - "ar"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+    searched_directories:
+      - "/opt/homebrew/bin/aarch64-apple-darwin25-ar-16"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/aarch64-apple-darwin25-ar-16"
+      - "/opt/homebrew/sbin/aarch64-apple-darwin25-ar-16"
+      - "/usr/local/bin/aarch64-apple-darwin25-ar-16"
+      - "/System/Cryptexes/App/usr/bin/aarch64-apple-darwin25-ar-16"
+      - "/usr/bin/aarch64-apple-darwin25-ar-16"
+      - "/bin/aarch64-apple-darwin25-ar-16"
+      - "/usr/sbin/aarch64-apple-darwin25-ar-16"
+      - "/sbin/aarch64-apple-darwin25-ar-16"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/aarch64-apple-darwin25-ar-16"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/aarch64-apple-darwin25-ar-16"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/aarch64-apple-darwin25-ar-16"
+      - "/pkg/env/global/bin/aarch64-apple-darwin25-ar-16"
+      - "/Library/Apple/usr/bin/aarch64-apple-darwin25-ar-16"
+      - "/opt/homebrew/bin/aarch64-apple-darwin25-ar"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/aarch64-apple-darwin25-ar"
+      - "/opt/homebrew/sbin/aarch64-apple-darwin25-ar"
+      - "/usr/local/bin/aarch64-apple-darwin25-ar"
+      - "/System/Cryptexes/App/usr/bin/aarch64-apple-darwin25-ar"
+      - "/usr/bin/aarch64-apple-darwin25-ar"
+      - "/bin/aarch64-apple-darwin25-ar"
+      - "/usr/sbin/aarch64-apple-darwin25-ar"
+      - "/sbin/aarch64-apple-darwin25-ar"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/aarch64-apple-darwin25-ar"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/aarch64-apple-darwin25-ar"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/aarch64-apple-darwin25-ar"
+      - "/pkg/env/global/bin/aarch64-apple-darwin25-ar"
+      - "/Library/Apple/usr/bin/aarch64-apple-darwin25-ar"
+      - "/opt/homebrew/bin/ar-16"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/ar-16"
+      - "/opt/homebrew/sbin/ar-16"
+      - "/usr/local/bin/ar-16"
+      - "/System/Cryptexes/App/usr/bin/ar-16"
+      - "/usr/bin/ar-16"
+      - "/bin/ar-16"
+      - "/usr/sbin/ar-16"
+      - "/sbin/ar-16"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/ar-16"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/ar-16"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/ar-16"
+      - "/pkg/env/global/bin/ar-16"
+      - "/Library/Apple/usr/bin/ar-16"
+      - "/opt/homebrew/bin/ar"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/ar"
+      - "/opt/homebrew/sbin/ar"
+      - "/usr/local/bin/ar"
+      - "/System/Cryptexes/App/usr/bin/ar"
+    found: "/usr/bin/ar"
+    search_context:
+      ENV{PATH}:
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "aarch64-apple-darwin25-ranlib-16"
+      - "aarch64-apple-darwin25-ranlib"
+      - "ranlib-16"
+      - "ranlib"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+    searched_directories:
+      - "/opt/homebrew/bin/aarch64-apple-darwin25-ranlib-16"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/aarch64-apple-darwin25-ranlib-16"
+      - "/opt/homebrew/sbin/aarch64-apple-darwin25-ranlib-16"
+      - "/usr/local/bin/aarch64-apple-darwin25-ranlib-16"
+      - "/System/Cryptexes/App/usr/bin/aarch64-apple-darwin25-ranlib-16"
+      - "/usr/bin/aarch64-apple-darwin25-ranlib-16"
+      - "/bin/aarch64-apple-darwin25-ranlib-16"
+      - "/usr/sbin/aarch64-apple-darwin25-ranlib-16"
+      - "/sbin/aarch64-apple-darwin25-ranlib-16"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/aarch64-apple-darwin25-ranlib-16"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/aarch64-apple-darwin25-ranlib-16"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/aarch64-apple-darwin25-ranlib-16"
+      - "/pkg/env/global/bin/aarch64-apple-darwin25-ranlib-16"
+      - "/Library/Apple/usr/bin/aarch64-apple-darwin25-ranlib-16"
+      - "/opt/homebrew/bin/aarch64-apple-darwin25-ranlib"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/aarch64-apple-darwin25-ranlib"
+      - "/opt/homebrew/sbin/aarch64-apple-darwin25-ranlib"
+      - "/usr/local/bin/aarch64-apple-darwin25-ranlib"
+      - "/System/Cryptexes/App/usr/bin/aarch64-apple-darwin25-ranlib"
+      - "/usr/bin/aarch64-apple-darwin25-ranlib"
+      - "/bin/aarch64-apple-darwin25-ranlib"
+      - "/usr/sbin/aarch64-apple-darwin25-ranlib"
+      - "/sbin/aarch64-apple-darwin25-ranlib"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/aarch64-apple-darwin25-ranlib"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/aarch64-apple-darwin25-ranlib"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/aarch64-apple-darwin25-ranlib"
+      - "/pkg/env/global/bin/aarch64-apple-darwin25-ranlib"
+      - "/Library/Apple/usr/bin/aarch64-apple-darwin25-ranlib"
+      - "/opt/homebrew/bin/ranlib-16"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/ranlib-16"
+      - "/opt/homebrew/sbin/ranlib-16"
+      - "/usr/local/bin/ranlib-16"
+      - "/System/Cryptexes/App/usr/bin/ranlib-16"
+      - "/usr/bin/ranlib-16"
+      - "/bin/ranlib-16"
+      - "/usr/sbin/ranlib-16"
+      - "/sbin/ranlib-16"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/ranlib-16"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/ranlib-16"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/ranlib-16"
+      - "/pkg/env/global/bin/ranlib-16"
+      - "/Library/Apple/usr/bin/ranlib-16"
+      - "/opt/homebrew/bin/ranlib"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/ranlib"
+      - "/opt/homebrew/sbin/ranlib"
+      - "/usr/local/bin/ranlib"
+      - "/System/Cryptexes/App/usr/bin/ranlib"
+    found: "/usr/bin/ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "aarch64-apple-darwin25-strip-16"
+      - "aarch64-apple-darwin25-strip"
+      - "strip-16"
+      - "strip"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+    searched_directories:
+      - "/opt/homebrew/bin/aarch64-apple-darwin25-strip-16"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/aarch64-apple-darwin25-strip-16"
+      - "/opt/homebrew/sbin/aarch64-apple-darwin25-strip-16"
+      - "/usr/local/bin/aarch64-apple-darwin25-strip-16"
+      - "/System/Cryptexes/App/usr/bin/aarch64-apple-darwin25-strip-16"
+      - "/usr/bin/aarch64-apple-darwin25-strip-16"
+      - "/bin/aarch64-apple-darwin25-strip-16"
+      - "/usr/sbin/aarch64-apple-darwin25-strip-16"
+      - "/sbin/aarch64-apple-darwin25-strip-16"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/aarch64-apple-darwin25-strip-16"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/aarch64-apple-darwin25-strip-16"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/aarch64-apple-darwin25-strip-16"
+      - "/pkg/env/global/bin/aarch64-apple-darwin25-strip-16"
+      - "/Library/Apple/usr/bin/aarch64-apple-darwin25-strip-16"
+      - "/opt/homebrew/bin/aarch64-apple-darwin25-strip"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/aarch64-apple-darwin25-strip"
+      - "/opt/homebrew/sbin/aarch64-apple-darwin25-strip"
+      - "/usr/local/bin/aarch64-apple-darwin25-strip"
+      - "/System/Cryptexes/App/usr/bin/aarch64-apple-darwin25-strip"
+      - "/usr/bin/aarch64-apple-darwin25-strip"
+      - "/bin/aarch64-apple-darwin25-strip"
+      - "/usr/sbin/aarch64-apple-darwin25-strip"
+      - "/sbin/aarch64-apple-darwin25-strip"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/aarch64-apple-darwin25-strip"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/aarch64-apple-darwin25-strip"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/aarch64-apple-darwin25-strip"
+      - "/pkg/env/global/bin/aarch64-apple-darwin25-strip"
+      - "/Library/Apple/usr/bin/aarch64-apple-darwin25-strip"
+      - "/opt/homebrew/bin/strip-16"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/strip-16"
+      - "/opt/homebrew/sbin/strip-16"
+      - "/usr/local/bin/strip-16"
+      - "/System/Cryptexes/App/usr/bin/strip-16"
+      - "/usr/bin/strip-16"
+      - "/bin/strip-16"
+      - "/usr/sbin/strip-16"
+      - "/sbin/strip-16"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/strip-16"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/strip-16"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/strip-16"
+      - "/pkg/env/global/bin/strip-16"
+      - "/Library/Apple/usr/bin/strip-16"
+      - "/opt/homebrew/bin/strip"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/strip"
+      - "/opt/homebrew/sbin/strip"
+      - "/usr/local/bin/strip"
+      - "/System/Cryptexes/App/usr/bin/strip"
+    found: "/usr/bin/strip"
+    search_context:
+      ENV{PATH}:
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "aarch64-apple-darwin25-ld-16"
+      - "aarch64-apple-darwin25-ld"
+      - "ld-16"
+      - "ld"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+    searched_directories:
+      - "/opt/homebrew/bin/aarch64-apple-darwin25-ld-16"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/aarch64-apple-darwin25-ld-16"
+      - "/opt/homebrew/sbin/aarch64-apple-darwin25-ld-16"
+      - "/usr/local/bin/aarch64-apple-darwin25-ld-16"
+      - "/System/Cryptexes/App/usr/bin/aarch64-apple-darwin25-ld-16"
+      - "/usr/bin/aarch64-apple-darwin25-ld-16"
+      - "/bin/aarch64-apple-darwin25-ld-16"
+      - "/usr/sbin/aarch64-apple-darwin25-ld-16"
+      - "/sbin/aarch64-apple-darwin25-ld-16"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/aarch64-apple-darwin25-ld-16"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/aarch64-apple-darwin25-ld-16"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/aarch64-apple-darwin25-ld-16"
+      - "/pkg/env/global/bin/aarch64-apple-darwin25-ld-16"
+      - "/Library/Apple/usr/bin/aarch64-apple-darwin25-ld-16"
+      - "/opt/homebrew/bin/aarch64-apple-darwin25-ld"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/aarch64-apple-darwin25-ld"
+      - "/opt/homebrew/sbin/aarch64-apple-darwin25-ld"
+      - "/usr/local/bin/aarch64-apple-darwin25-ld"
+      - "/System/Cryptexes/App/usr/bin/aarch64-apple-darwin25-ld"
+      - "/usr/bin/aarch64-apple-darwin25-ld"
+      - "/bin/aarch64-apple-darwin25-ld"
+      - "/usr/sbin/aarch64-apple-darwin25-ld"
+      - "/sbin/aarch64-apple-darwin25-ld"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/aarch64-apple-darwin25-ld"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/aarch64-apple-darwin25-ld"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/aarch64-apple-darwin25-ld"
+      - "/pkg/env/global/bin/aarch64-apple-darwin25-ld"
+      - "/Library/Apple/usr/bin/aarch64-apple-darwin25-ld"
+      - "/opt/homebrew/bin/ld-16"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/ld-16"
+      - "/opt/homebrew/sbin/ld-16"
+      - "/usr/local/bin/ld-16"
+      - "/System/Cryptexes/App/usr/bin/ld-16"
+      - "/usr/bin/ld-16"
+      - "/bin/ld-16"
+      - "/usr/sbin/ld-16"
+      - "/sbin/ld-16"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/ld-16"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/ld-16"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/ld-16"
+      - "/pkg/env/global/bin/ld-16"
+      - "/Library/Apple/usr/bin/ld-16"
+      - "/opt/homebrew/bin/ld"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/ld"
+      - "/opt/homebrew/sbin/ld"
+      - "/usr/local/bin/ld"
+      - "/System/Cryptexes/App/usr/bin/ld"
+    found: "/usr/bin/ld"
+    search_context:
+      ENV{PATH}:
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "aarch64-apple-darwin25-nm-16"
+      - "aarch64-apple-darwin25-nm"
+      - "nm-16"
+      - "nm"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+    searched_directories:
+      - "/opt/homebrew/bin/aarch64-apple-darwin25-nm-16"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/aarch64-apple-darwin25-nm-16"
+      - "/opt/homebrew/sbin/aarch64-apple-darwin25-nm-16"
+      - "/usr/local/bin/aarch64-apple-darwin25-nm-16"
+      - "/System/Cryptexes/App/usr/bin/aarch64-apple-darwin25-nm-16"
+      - "/usr/bin/aarch64-apple-darwin25-nm-16"
+      - "/bin/aarch64-apple-darwin25-nm-16"
+      - "/usr/sbin/aarch64-apple-darwin25-nm-16"
+      - "/sbin/aarch64-apple-darwin25-nm-16"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/aarch64-apple-darwin25-nm-16"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/aarch64-apple-darwin25-nm-16"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/aarch64-apple-darwin25-nm-16"
+      - "/pkg/env/global/bin/aarch64-apple-darwin25-nm-16"
+      - "/Library/Apple/usr/bin/aarch64-apple-darwin25-nm-16"
+      - "/opt/homebrew/bin/aarch64-apple-darwin25-nm"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/aarch64-apple-darwin25-nm"
+      - "/opt/homebrew/sbin/aarch64-apple-darwin25-nm"
+      - "/usr/local/bin/aarch64-apple-darwin25-nm"
+      - "/System/Cryptexes/App/usr/bin/aarch64-apple-darwin25-nm"
+      - "/usr/bin/aarch64-apple-darwin25-nm"
+      - "/bin/aarch64-apple-darwin25-nm"
+      - "/usr/sbin/aarch64-apple-darwin25-nm"
+      - "/sbin/aarch64-apple-darwin25-nm"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/aarch64-apple-darwin25-nm"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/aarch64-apple-darwin25-nm"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/aarch64-apple-darwin25-nm"
+      - "/pkg/env/global/bin/aarch64-apple-darwin25-nm"
+      - "/Library/Apple/usr/bin/aarch64-apple-darwin25-nm"
+      - "/opt/homebrew/bin/nm-16"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/nm-16"
+      - "/opt/homebrew/sbin/nm-16"
+      - "/usr/local/bin/nm-16"
+      - "/System/Cryptexes/App/usr/bin/nm-16"
+      - "/usr/bin/nm-16"
+      - "/bin/nm-16"
+      - "/usr/sbin/nm-16"
+      - "/sbin/nm-16"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/nm-16"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/nm-16"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/nm-16"
+      - "/pkg/env/global/bin/nm-16"
+      - "/Library/Apple/usr/bin/nm-16"
+      - "/opt/homebrew/bin/nm"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/nm"
+      - "/opt/homebrew/sbin/nm"
+      - "/usr/local/bin/nm"
+      - "/System/Cryptexes/App/usr/bin/nm"
+    found: "/usr/bin/nm"
+    search_context:
+      ENV{PATH}:
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "aarch64-apple-darwin25-objdump-16"
+      - "aarch64-apple-darwin25-objdump"
+      - "objdump-16"
+      - "objdump"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+    searched_directories:
+      - "/opt/homebrew/bin/aarch64-apple-darwin25-objdump-16"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/aarch64-apple-darwin25-objdump-16"
+      - "/opt/homebrew/sbin/aarch64-apple-darwin25-objdump-16"
+      - "/usr/local/bin/aarch64-apple-darwin25-objdump-16"
+      - "/System/Cryptexes/App/usr/bin/aarch64-apple-darwin25-objdump-16"
+      - "/usr/bin/aarch64-apple-darwin25-objdump-16"
+      - "/bin/aarch64-apple-darwin25-objdump-16"
+      - "/usr/sbin/aarch64-apple-darwin25-objdump-16"
+      - "/sbin/aarch64-apple-darwin25-objdump-16"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/aarch64-apple-darwin25-objdump-16"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/aarch64-apple-darwin25-objdump-16"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/aarch64-apple-darwin25-objdump-16"
+      - "/pkg/env/global/bin/aarch64-apple-darwin25-objdump-16"
+      - "/Library/Apple/usr/bin/aarch64-apple-darwin25-objdump-16"
+      - "/opt/homebrew/bin/aarch64-apple-darwin25-objdump"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/aarch64-apple-darwin25-objdump"
+      - "/opt/homebrew/sbin/aarch64-apple-darwin25-objdump"
+      - "/usr/local/bin/aarch64-apple-darwin25-objdump"
+      - "/System/Cryptexes/App/usr/bin/aarch64-apple-darwin25-objdump"
+      - "/usr/bin/aarch64-apple-darwin25-objdump"
+      - "/bin/aarch64-apple-darwin25-objdump"
+      - "/usr/sbin/aarch64-apple-darwin25-objdump"
+      - "/sbin/aarch64-apple-darwin25-objdump"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/aarch64-apple-darwin25-objdump"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/aarch64-apple-darwin25-objdump"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/aarch64-apple-darwin25-objdump"
+      - "/pkg/env/global/bin/aarch64-apple-darwin25-objdump"
+      - "/Library/Apple/usr/bin/aarch64-apple-darwin25-objdump"
+      - "/opt/homebrew/bin/objdump-16"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/objdump-16"
+      - "/opt/homebrew/sbin/objdump-16"
+      - "/usr/local/bin/objdump-16"
+      - "/System/Cryptexes/App/usr/bin/objdump-16"
+      - "/usr/bin/objdump-16"
+      - "/bin/objdump-16"
+      - "/usr/sbin/objdump-16"
+      - "/sbin/objdump-16"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/objdump-16"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/objdump-16"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/objdump-16"
+      - "/pkg/env/global/bin/objdump-16"
+      - "/Library/Apple/usr/bin/objdump-16"
+      - "/opt/homebrew/bin/objdump"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/objdump"
+      - "/opt/homebrew/sbin/objdump"
+      - "/usr/local/bin/objdump"
+      - "/System/Cryptexes/App/usr/bin/objdump"
+    found: "/usr/bin/objdump"
+    search_context:
+      ENV{PATH}:
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "aarch64-apple-darwin25-objcopy-16"
+      - "aarch64-apple-darwin25-objcopy"
+      - "objcopy-16"
+      - "objcopy"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+    searched_directories:
+      - "/opt/homebrew/bin/aarch64-apple-darwin25-objcopy-16"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/aarch64-apple-darwin25-objcopy-16"
+      - "/opt/homebrew/sbin/aarch64-apple-darwin25-objcopy-16"
+      - "/usr/local/bin/aarch64-apple-darwin25-objcopy-16"
+      - "/System/Cryptexes/App/usr/bin/aarch64-apple-darwin25-objcopy-16"
+      - "/usr/bin/aarch64-apple-darwin25-objcopy-16"
+      - "/bin/aarch64-apple-darwin25-objcopy-16"
+      - "/usr/sbin/aarch64-apple-darwin25-objcopy-16"
+      - "/sbin/aarch64-apple-darwin25-objcopy-16"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/aarch64-apple-darwin25-objcopy-16"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/aarch64-apple-darwin25-objcopy-16"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/aarch64-apple-darwin25-objcopy-16"
+      - "/pkg/env/global/bin/aarch64-apple-darwin25-objcopy-16"
+      - "/Library/Apple/usr/bin/aarch64-apple-darwin25-objcopy-16"
+      - "/opt/homebrew/bin/aarch64-apple-darwin25-objcopy"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/aarch64-apple-darwin25-objcopy"
+      - "/opt/homebrew/sbin/aarch64-apple-darwin25-objcopy"
+      - "/usr/local/bin/aarch64-apple-darwin25-objcopy"
+      - "/System/Cryptexes/App/usr/bin/aarch64-apple-darwin25-objcopy"
+      - "/usr/bin/aarch64-apple-darwin25-objcopy"
+      - "/bin/aarch64-apple-darwin25-objcopy"
+      - "/usr/sbin/aarch64-apple-darwin25-objcopy"
+      - "/sbin/aarch64-apple-darwin25-objcopy"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/aarch64-apple-darwin25-objcopy"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/aarch64-apple-darwin25-objcopy"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/aarch64-apple-darwin25-objcopy"
+      - "/pkg/env/global/bin/aarch64-apple-darwin25-objcopy"
+      - "/Library/Apple/usr/bin/aarch64-apple-darwin25-objcopy"
+      - "/opt/homebrew/bin/objcopy-16"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/objcopy-16"
+      - "/opt/homebrew/sbin/objcopy-16"
+      - "/usr/local/bin/objcopy-16"
+      - "/System/Cryptexes/App/usr/bin/objcopy-16"
+      - "/usr/bin/objcopy-16"
+      - "/bin/objcopy-16"
+      - "/usr/sbin/objcopy-16"
+      - "/sbin/objcopy-16"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/objcopy-16"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/objcopy-16"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/objcopy-16"
+      - "/pkg/env/global/bin/objcopy-16"
+      - "/Library/Apple/usr/bin/objcopy-16"
+      - "/opt/homebrew/bin/objcopy"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/objcopy"
+      - "/opt/homebrew/sbin/objcopy"
+      - "/usr/local/bin/objcopy"
+      - "/System/Cryptexes/App/usr/bin/objcopy"
+      - "/usr/bin/objcopy"
+      - "/bin/objcopy"
+      - "/usr/sbin/objcopy"
+      - "/sbin/objcopy"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/objcopy"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/objcopy"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/objcopy"
+      - "/pkg/env/global/bin/objcopy"
+      - "/Library/Apple/usr/bin/objcopy"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "aarch64-apple-darwin25-readelf-16"
+      - "aarch64-apple-darwin25-readelf"
+      - "readelf-16"
+      - "readelf"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+    searched_directories:
+      - "/opt/homebrew/bin/aarch64-apple-darwin25-readelf-16"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/aarch64-apple-darwin25-readelf-16"
+      - "/opt/homebrew/sbin/aarch64-apple-darwin25-readelf-16"
+      - "/usr/local/bin/aarch64-apple-darwin25-readelf-16"
+      - "/System/Cryptexes/App/usr/bin/aarch64-apple-darwin25-readelf-16"
+      - "/usr/bin/aarch64-apple-darwin25-readelf-16"
+      - "/bin/aarch64-apple-darwin25-readelf-16"
+      - "/usr/sbin/aarch64-apple-darwin25-readelf-16"
+      - "/sbin/aarch64-apple-darwin25-readelf-16"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/aarch64-apple-darwin25-readelf-16"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/aarch64-apple-darwin25-readelf-16"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/aarch64-apple-darwin25-readelf-16"
+      - "/pkg/env/global/bin/aarch64-apple-darwin25-readelf-16"
+      - "/Library/Apple/usr/bin/aarch64-apple-darwin25-readelf-16"
+      - "/opt/homebrew/bin/aarch64-apple-darwin25-readelf"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/aarch64-apple-darwin25-readelf"
+      - "/opt/homebrew/sbin/aarch64-apple-darwin25-readelf"
+      - "/usr/local/bin/aarch64-apple-darwin25-readelf"
+      - "/System/Cryptexes/App/usr/bin/aarch64-apple-darwin25-readelf"
+      - "/usr/bin/aarch64-apple-darwin25-readelf"
+      - "/bin/aarch64-apple-darwin25-readelf"
+      - "/usr/sbin/aarch64-apple-darwin25-readelf"
+      - "/sbin/aarch64-apple-darwin25-readelf"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/aarch64-apple-darwin25-readelf"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/aarch64-apple-darwin25-readelf"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/aarch64-apple-darwin25-readelf"
+      - "/pkg/env/global/bin/aarch64-apple-darwin25-readelf"
+      - "/Library/Apple/usr/bin/aarch64-apple-darwin25-readelf"
+      - "/opt/homebrew/bin/readelf-16"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/readelf-16"
+      - "/opt/homebrew/sbin/readelf-16"
+      - "/usr/local/bin/readelf-16"
+      - "/System/Cryptexes/App/usr/bin/readelf-16"
+      - "/usr/bin/readelf-16"
+      - "/bin/readelf-16"
+      - "/usr/sbin/readelf-16"
+      - "/sbin/readelf-16"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/readelf-16"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/readelf-16"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/readelf-16"
+      - "/pkg/env/global/bin/readelf-16"
+      - "/Library/Apple/usr/bin/readelf-16"
+      - "/opt/homebrew/bin/readelf"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/readelf"
+      - "/opt/homebrew/sbin/readelf"
+      - "/usr/local/bin/readelf"
+      - "/System/Cryptexes/App/usr/bin/readelf"
+      - "/usr/bin/readelf"
+      - "/bin/readelf"
+      - "/usr/sbin/readelf"
+      - "/sbin/readelf"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/readelf"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/readelf"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/readelf"
+      - "/pkg/env/global/bin/readelf"
+      - "/Library/Apple/usr/bin/readelf"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "aarch64-apple-darwin25-dlltool-16"
+      - "aarch64-apple-darwin25-dlltool"
+      - "dlltool-16"
+      - "dlltool"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+    searched_directories:
+      - "/opt/homebrew/bin/aarch64-apple-darwin25-dlltool-16"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/aarch64-apple-darwin25-dlltool-16"
+      - "/opt/homebrew/sbin/aarch64-apple-darwin25-dlltool-16"
+      - "/usr/local/bin/aarch64-apple-darwin25-dlltool-16"
+      - "/System/Cryptexes/App/usr/bin/aarch64-apple-darwin25-dlltool-16"
+      - "/usr/bin/aarch64-apple-darwin25-dlltool-16"
+      - "/bin/aarch64-apple-darwin25-dlltool-16"
+      - "/usr/sbin/aarch64-apple-darwin25-dlltool-16"
+      - "/sbin/aarch64-apple-darwin25-dlltool-16"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/aarch64-apple-darwin25-dlltool-16"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/aarch64-apple-darwin25-dlltool-16"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/aarch64-apple-darwin25-dlltool-16"
+      - "/pkg/env/global/bin/aarch64-apple-darwin25-dlltool-16"
+      - "/Library/Apple/usr/bin/aarch64-apple-darwin25-dlltool-16"
+      - "/opt/homebrew/bin/aarch64-apple-darwin25-dlltool"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/aarch64-apple-darwin25-dlltool"
+      - "/opt/homebrew/sbin/aarch64-apple-darwin25-dlltool"
+      - "/usr/local/bin/aarch64-apple-darwin25-dlltool"
+      - "/System/Cryptexes/App/usr/bin/aarch64-apple-darwin25-dlltool"
+      - "/usr/bin/aarch64-apple-darwin25-dlltool"
+      - "/bin/aarch64-apple-darwin25-dlltool"
+      - "/usr/sbin/aarch64-apple-darwin25-dlltool"
+      - "/sbin/aarch64-apple-darwin25-dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/aarch64-apple-darwin25-dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/aarch64-apple-darwin25-dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/aarch64-apple-darwin25-dlltool"
+      - "/pkg/env/global/bin/aarch64-apple-darwin25-dlltool"
+      - "/Library/Apple/usr/bin/aarch64-apple-darwin25-dlltool"
+      - "/opt/homebrew/bin/dlltool-16"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/dlltool-16"
+      - "/opt/homebrew/sbin/dlltool-16"
+      - "/usr/local/bin/dlltool-16"
+      - "/System/Cryptexes/App/usr/bin/dlltool-16"
+      - "/usr/bin/dlltool-16"
+      - "/bin/dlltool-16"
+      - "/usr/sbin/dlltool-16"
+      - "/sbin/dlltool-16"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/dlltool-16"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/dlltool-16"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/dlltool-16"
+      - "/pkg/env/global/bin/dlltool-16"
+      - "/Library/Apple/usr/bin/dlltool-16"
+      - "/opt/homebrew/bin/dlltool"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/dlltool"
+      - "/opt/homebrew/sbin/dlltool"
+      - "/usr/local/bin/dlltool"
+      - "/System/Cryptexes/App/usr/bin/dlltool"
+      - "/usr/bin/dlltool"
+      - "/bin/dlltool"
+      - "/usr/sbin/dlltool"
+      - "/sbin/dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/dlltool"
+      - "/pkg/env/global/bin/dlltool"
+      - "/Library/Apple/usr/bin/dlltool"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "aarch64-apple-darwin25-addr2line-16"
+      - "aarch64-apple-darwin25-addr2line"
+      - "addr2line-16"
+      - "addr2line"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+    searched_directories:
+      - "/opt/homebrew/bin/aarch64-apple-darwin25-addr2line-16"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/aarch64-apple-darwin25-addr2line-16"
+      - "/opt/homebrew/sbin/aarch64-apple-darwin25-addr2line-16"
+      - "/usr/local/bin/aarch64-apple-darwin25-addr2line-16"
+      - "/System/Cryptexes/App/usr/bin/aarch64-apple-darwin25-addr2line-16"
+      - "/usr/bin/aarch64-apple-darwin25-addr2line-16"
+      - "/bin/aarch64-apple-darwin25-addr2line-16"
+      - "/usr/sbin/aarch64-apple-darwin25-addr2line-16"
+      - "/sbin/aarch64-apple-darwin25-addr2line-16"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/aarch64-apple-darwin25-addr2line-16"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/aarch64-apple-darwin25-addr2line-16"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/aarch64-apple-darwin25-addr2line-16"
+      - "/pkg/env/global/bin/aarch64-apple-darwin25-addr2line-16"
+      - "/Library/Apple/usr/bin/aarch64-apple-darwin25-addr2line-16"
+      - "/opt/homebrew/bin/aarch64-apple-darwin25-addr2line"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/aarch64-apple-darwin25-addr2line"
+      - "/opt/homebrew/sbin/aarch64-apple-darwin25-addr2line"
+      - "/usr/local/bin/aarch64-apple-darwin25-addr2line"
+      - "/System/Cryptexes/App/usr/bin/aarch64-apple-darwin25-addr2line"
+      - "/usr/bin/aarch64-apple-darwin25-addr2line"
+      - "/bin/aarch64-apple-darwin25-addr2line"
+      - "/usr/sbin/aarch64-apple-darwin25-addr2line"
+      - "/sbin/aarch64-apple-darwin25-addr2line"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/aarch64-apple-darwin25-addr2line"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/aarch64-apple-darwin25-addr2line"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/aarch64-apple-darwin25-addr2line"
+      - "/pkg/env/global/bin/aarch64-apple-darwin25-addr2line"
+      - "/Library/Apple/usr/bin/aarch64-apple-darwin25-addr2line"
+      - "/opt/homebrew/bin/addr2line-16"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/addr2line-16"
+      - "/opt/homebrew/sbin/addr2line-16"
+      - "/usr/local/bin/addr2line-16"
+      - "/System/Cryptexes/App/usr/bin/addr2line-16"
+      - "/usr/bin/addr2line-16"
+      - "/bin/addr2line-16"
+      - "/usr/sbin/addr2line-16"
+      - "/sbin/addr2line-16"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/addr2line-16"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/addr2line-16"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/addr2line-16"
+      - "/pkg/env/global/bin/addr2line-16"
+      - "/Library/Apple/usr/bin/addr2line-16"
+      - "/opt/homebrew/bin/addr2line"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/addr2line"
+      - "/opt/homebrew/sbin/addr2line"
+      - "/usr/local/bin/addr2line"
+      - "/System/Cryptexes/App/usr/bin/addr2line"
+      - "/usr/bin/addr2line"
+      - "/bin/addr2line"
+      - "/usr/sbin/addr2line"
+      - "/sbin/addr2line"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/addr2line"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/addr2line"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/addr2line"
+      - "/pkg/env/global/bin/addr2line"
+      - "/Library/Apple/usr/bin/addr2line"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "aarch64-apple-darwin25-tapi-16"
+      - "aarch64-apple-darwin25-tapi"
+      - "tapi-16"
+      - "tapi"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+    searched_directories:
+      - "/opt/homebrew/bin/aarch64-apple-darwin25-tapi-16"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/aarch64-apple-darwin25-tapi-16"
+      - "/opt/homebrew/sbin/aarch64-apple-darwin25-tapi-16"
+      - "/usr/local/bin/aarch64-apple-darwin25-tapi-16"
+      - "/System/Cryptexes/App/usr/bin/aarch64-apple-darwin25-tapi-16"
+      - "/usr/bin/aarch64-apple-darwin25-tapi-16"
+      - "/bin/aarch64-apple-darwin25-tapi-16"
+      - "/usr/sbin/aarch64-apple-darwin25-tapi-16"
+      - "/sbin/aarch64-apple-darwin25-tapi-16"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/aarch64-apple-darwin25-tapi-16"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/aarch64-apple-darwin25-tapi-16"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/aarch64-apple-darwin25-tapi-16"
+      - "/pkg/env/global/bin/aarch64-apple-darwin25-tapi-16"
+      - "/Library/Apple/usr/bin/aarch64-apple-darwin25-tapi-16"
+      - "/opt/homebrew/bin/aarch64-apple-darwin25-tapi"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/aarch64-apple-darwin25-tapi"
+      - "/opt/homebrew/sbin/aarch64-apple-darwin25-tapi"
+      - "/usr/local/bin/aarch64-apple-darwin25-tapi"
+      - "/System/Cryptexes/App/usr/bin/aarch64-apple-darwin25-tapi"
+      - "/usr/bin/aarch64-apple-darwin25-tapi"
+      - "/bin/aarch64-apple-darwin25-tapi"
+      - "/usr/sbin/aarch64-apple-darwin25-tapi"
+      - "/sbin/aarch64-apple-darwin25-tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/aarch64-apple-darwin25-tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/aarch64-apple-darwin25-tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/aarch64-apple-darwin25-tapi"
+      - "/pkg/env/global/bin/aarch64-apple-darwin25-tapi"
+      - "/Library/Apple/usr/bin/aarch64-apple-darwin25-tapi"
+      - "/opt/homebrew/bin/tapi-16"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/tapi-16"
+      - "/opt/homebrew/sbin/tapi-16"
+      - "/usr/local/bin/tapi-16"
+      - "/System/Cryptexes/App/usr/bin/tapi-16"
+      - "/usr/bin/tapi-16"
+      - "/bin/tapi-16"
+      - "/usr/sbin/tapi-16"
+      - "/sbin/tapi-16"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/tapi-16"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/tapi-16"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/tapi-16"
+      - "/pkg/env/global/bin/tapi-16"
+      - "/Library/Apple/usr/bin/tapi-16"
+      - "/opt/homebrew/bin/tapi"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/tapi"
+      - "/opt/homebrew/sbin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/System/Cryptexes/App/usr/bin/tapi"
+      - "/usr/bin/tapi"
+      - "/bin/tapi"
+      - "/usr/sbin/tapi"
+      - "/sbin/tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/tapi"
+      - "/pkg/env/global/bin/tapi"
+      - "/Library/Apple/usr/bin/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "aarch64-apple-darwin25-gcc-ar-16.1"
+      - "aarch64-apple-darwin25-gcc-ar-16"
+      - "aarch64-apple-darwin25-gcc-ar16"
+      - "aarch64-apple-darwin25-gcc-ar"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+    searched_directories:
+      - "/opt/homebrew/bin/aarch64-apple-darwin25-gcc-ar-16.1"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/aarch64-apple-darwin25-gcc-ar-16.1"
+      - "/opt/homebrew/sbin/aarch64-apple-darwin25-gcc-ar-16.1"
+      - "/usr/local/bin/aarch64-apple-darwin25-gcc-ar-16.1"
+      - "/System/Cryptexes/App/usr/bin/aarch64-apple-darwin25-gcc-ar-16.1"
+      - "/usr/bin/aarch64-apple-darwin25-gcc-ar-16.1"
+      - "/bin/aarch64-apple-darwin25-gcc-ar-16.1"
+      - "/usr/sbin/aarch64-apple-darwin25-gcc-ar-16.1"
+      - "/sbin/aarch64-apple-darwin25-gcc-ar-16.1"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/aarch64-apple-darwin25-gcc-ar-16.1"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/aarch64-apple-darwin25-gcc-ar-16.1"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/aarch64-apple-darwin25-gcc-ar-16.1"
+      - "/pkg/env/global/bin/aarch64-apple-darwin25-gcc-ar-16.1"
+      - "/Library/Apple/usr/bin/aarch64-apple-darwin25-gcc-ar-16.1"
+    found: "/opt/homebrew/bin/aarch64-apple-darwin25-gcc-ar-16"
+    search_context:
+      ENV{PATH}:
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "aarch64-apple-darwin25-gcc-ranlib-16.1"
+      - "aarch64-apple-darwin25-gcc-ranlib-16"
+      - "aarch64-apple-darwin25-gcc-ranlib16"
+      - "aarch64-apple-darwin25-gcc-ranlib"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+    searched_directories:
+      - "/opt/homebrew/bin/aarch64-apple-darwin25-gcc-ranlib-16.1"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/aarch64-apple-darwin25-gcc-ranlib-16.1"
+      - "/opt/homebrew/sbin/aarch64-apple-darwin25-gcc-ranlib-16.1"
+      - "/usr/local/bin/aarch64-apple-darwin25-gcc-ranlib-16.1"
+      - "/System/Cryptexes/App/usr/bin/aarch64-apple-darwin25-gcc-ranlib-16.1"
+      - "/usr/bin/aarch64-apple-darwin25-gcc-ranlib-16.1"
+      - "/bin/aarch64-apple-darwin25-gcc-ranlib-16.1"
+      - "/usr/sbin/aarch64-apple-darwin25-gcc-ranlib-16.1"
+      - "/sbin/aarch64-apple-darwin25-gcc-ranlib-16.1"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/aarch64-apple-darwin25-gcc-ranlib-16.1"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/aarch64-apple-darwin25-gcc-ranlib-16.1"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/aarch64-apple-darwin25-gcc-ranlib-16.1"
+      - "/pkg/env/global/bin/aarch64-apple-darwin25-gcc-ranlib-16.1"
+      - "/Library/Apple/usr/bin/aarch64-apple-darwin25-gcc-ranlib-16.1"
+    found: "/opt/homebrew/bin/aarch64-apple-darwin25-gcc-ranlib-16"
+    search_context:
+      ENV{PATH}:
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/opt/homebrew/share/cmake/Modules/"
+    found: "/opt/homebrew/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /opt/homebrew/bin/aarch64-apple-darwin25-g++-16 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /Users/wszystkonietak/Documents/projects/python-sandbox/build/CMakeFiles/4.3.3/CompilerIdCXX/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "aarch64-apple-darwin25-gcc-ar-16.1"
+      - "aarch64-apple-darwin25-gcc-ar-16"
+      - "aarch64-apple-darwin25-gcc-ar16"
+      - "aarch64-apple-darwin25-gcc-ar"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+    searched_directories:
+      - "/opt/homebrew/bin/aarch64-apple-darwin25-gcc-ar-16.1"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/aarch64-apple-darwin25-gcc-ar-16.1"
+      - "/opt/homebrew/sbin/aarch64-apple-darwin25-gcc-ar-16.1"
+      - "/usr/local/bin/aarch64-apple-darwin25-gcc-ar-16.1"
+      - "/System/Cryptexes/App/usr/bin/aarch64-apple-darwin25-gcc-ar-16.1"
+      - "/usr/bin/aarch64-apple-darwin25-gcc-ar-16.1"
+      - "/bin/aarch64-apple-darwin25-gcc-ar-16.1"
+      - "/usr/sbin/aarch64-apple-darwin25-gcc-ar-16.1"
+      - "/sbin/aarch64-apple-darwin25-gcc-ar-16.1"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/aarch64-apple-darwin25-gcc-ar-16.1"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/aarch64-apple-darwin25-gcc-ar-16.1"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/aarch64-apple-darwin25-gcc-ar-16.1"
+      - "/pkg/env/global/bin/aarch64-apple-darwin25-gcc-ar-16.1"
+      - "/Library/Apple/usr/bin/aarch64-apple-darwin25-gcc-ar-16.1"
+    found: "/opt/homebrew/bin/aarch64-apple-darwin25-gcc-ar-16"
+    search_context:
+      ENV{PATH}:
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "aarch64-apple-darwin25-gcc-ranlib-16.1"
+      - "aarch64-apple-darwin25-gcc-ranlib-16"
+      - "aarch64-apple-darwin25-gcc-ranlib16"
+      - "aarch64-apple-darwin25-gcc-ranlib"
+    candidate_directories:
+      - "/opt/homebrew/bin/"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+    searched_directories:
+      - "/opt/homebrew/bin/aarch64-apple-darwin25-gcc-ranlib-16.1"
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/aarch64-apple-darwin25-gcc-ranlib-16.1"
+      - "/opt/homebrew/sbin/aarch64-apple-darwin25-gcc-ranlib-16.1"
+      - "/usr/local/bin/aarch64-apple-darwin25-gcc-ranlib-16.1"
+      - "/System/Cryptexes/App/usr/bin/aarch64-apple-darwin25-gcc-ranlib-16.1"
+      - "/usr/bin/aarch64-apple-darwin25-gcc-ranlib-16.1"
+      - "/bin/aarch64-apple-darwin25-gcc-ranlib-16.1"
+      - "/usr/sbin/aarch64-apple-darwin25-gcc-ranlib-16.1"
+      - "/sbin/aarch64-apple-darwin25-gcc-ranlib-16.1"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/aarch64-apple-darwin25-gcc-ranlib-16.1"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/aarch64-apple-darwin25-gcc-ranlib-16.1"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/aarch64-apple-darwin25-gcc-ranlib-16.1"
+      - "/pkg/env/global/bin/aarch64-apple-darwin25-gcc-ranlib-16.1"
+      - "/Library/Apple/usr/bin/aarch64-apple-darwin25-gcc-ranlib-16.1"
+    found: "/opt/homebrew/bin/aarch64-apple-darwin25-gcc-ranlib-16"
+    search_context:
+      ENV{PATH}:
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Platform/Darwin.cmake:66 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeSystemSpecificInformation.cmake:32 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_INSTALL_NAME_TOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "install_name_tool"
+    candidate_directories:
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/pkg/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+    searched_directories:
+      - "/Library/Frameworks/Python.framework/Versions/3.12/bin/install_name_tool"
+      - "/opt/homebrew/bin/install_name_tool"
+      - "/opt/homebrew/sbin/install_name_tool"
+      - "/usr/local/bin/install_name_tool"
+      - "/System/Cryptexes/App/usr/bin/install_name_tool"
+    found: "/usr/bin/install_name_tool"
+    search_context:
+      ENV{PATH}:
+        - "/Library/Frameworks/Python.framework/Versions/3.12/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/pkg/env/global/bin"
+        - "/Library/Apple/usr/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/Users/wszystkonietak/Documents/projects/python-sandbox/build/CMakeFiles/CMakeScratch/TryCompile-XPuCAi"
+      binary: "/Users/wszystkonietak/Documents/projects/python-sandbox/build/CMakeFiles/CMakeScratch/TryCompile-XPuCAi"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/wszystkonietak/Documents/projects/python-sandbox/build/CMakeFiles/CMakeScratch/TryCompile-XPuCAi'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_17039/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_17039.dir/build.make CMakeFiles/cmTC_17039.dir/build
+        Building C object CMakeFiles/cmTC_17039.dir/CMakeCCompilerABI.c.o
+        /opt/homebrew/bin/aarch64-apple-darwin25-gcc-16   -arch arm64   -v -Wl,-v -o CMakeFiles/cmTC_17039.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/opt/homebrew/bin/aarch64-apple-darwin25-gcc-16
+        Target: aarch64-apple-darwin25
+        Configured with: ../configure --prefix=/opt/homebrew/opt/gcc --libdir=/opt/homebrew/opt/gcc/lib/gcc/current --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-16 --with-gmp=/opt/homebrew/opt/gmp --with-mpfr=/opt/homebrew/opt/mpfr --with-mpc=/opt/homebrew/opt/libmpc --with-isl=/opt/homebrew/opt/isl --with-zstd=/opt/homebrew/opt/zstd --with-pkgversion='Homebrew GCC 16.1.0' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --with-system-zlib --build=aarch64-apple-darwin25 --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 16.1.0 (Homebrew GCC 16.1.0) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_17039.dir/CMakeCCompilerABI.c.o' '-c' '-mmacosx-version-min=28.0.0' '-asm_macosx_version_min=28.0' '-nodefaultexport' '-mcpu=apple-m1' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_17039.dir/'
+         /opt/homebrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/aarch64-apple-darwin25/16/cc1 -quiet -v -iprefix /opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16/ -D__DYNAMIC__ /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c -fPIC -quiet -dumpdir CMakeFiles/cmTC_17039.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mmacosx-version-min=28.0.0 -mcpu=apple-m1 -mlittle-endian -mabi=lp64 -version -o /var/folders/_d/vl2n0c1d6p3fm489p8ln6pmh0000gn/T//ccLdHr4h.s
+        GNU C23 (Homebrew GCC 16.1.0) version 16.1.0 (aarch64-apple-darwin25)
+        	compiled by GNU C version 16.1.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.4.1, isl version isl-0.28-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16/../../../../../../aarch64-apple-darwin25/include"
+        ignoring duplicate directory "/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/aarch64-apple-darwin25/16/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/local/include"
+        ignoring duplicate directory "/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/aarch64-apple-darwin25/16/include-fixed"
+        ignoring nonexistent directory "/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/aarch64-apple-darwin25/16/../../../../../../aarch64-apple-darwin25/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16/include
+         /opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16/include-fixed
+         /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/System/Library/Frameworks
+        End of search list.
+        Compiler executable checksum: 4e05b052dc7e4f76558d50866c86467f
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_17039.dir/CMakeCCompilerABI.c.o' '-c' '-mmacosx-version-min=28.0.0'  '-nodefaultexport' '-mcpu=apple-m1' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_17039.dir/'
+         as -arch arm64 -v -mmacosx-version-min=28.0 -o CMakeFiles/cmTC_17039.dir/CMakeCCompilerABI.c.o /var/folders/_d/vl2n0c1d6p3fm489p8ln6pmh0000gn/T//ccLdHr4h.s
+        Apple clang version 21.0.0 (clang-2100.3.34.2)
+        Target: arm64-apple-darwin27.0.0
+        Thread model: posix
+        InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1as -triple arm64-apple-macosx28.0.0 -target-sdk-version=27.0 -filetype obj -main-file-name ccLdHr4h.s -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +ccpp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +flagm -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -fdebug-compilation-dir=/Users/wszystkonietak/Documents/projects/python-sandbox/build/CMakeFiles/CMakeScratch/TryCompile-XPuCAi -dwarf-debug-producer "Apple clang version 21.0.0 (clang-2100.3.34.2)" -dwarf-version=5 -mrelocation-model pic -o CMakeFiles/cmTC_17039.dir/CMakeCCompilerABI.c.o /var/folders/_d/vl2n0c1d6p3fm489p8ln6pmh0000gn/T//ccLdHr4h.s
+        COMPILER_PATH=/opt/homebrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/aarch64-apple-darwin25/16/:/opt/homebrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/
+        LIBRARY_PATH=/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16/:/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/:/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_17039.dir/CMakeCCompilerABI.c.o' '-c' '-mmacosx-version-min=28.0.0'  '-nodefaultexport' '-mcpu=apple-m1' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_17039.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_17039
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17039.dir/link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=/opt/homebrew/bin/aarch64-apple-darwin25-gcc-16
+        COLLECT_LTO_WRAPPER=/opt/homebrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/aarch64-apple-darwin25/16/lto-wrapper
+        Target: aarch64-apple-darwin25
+        Configured with: ../configure --prefix=/opt/homebrew/opt/gcc --libdir=/opt/homebrew/opt/gcc/lib/gcc/current --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-16 --with-gmp=/opt/homebrew/opt/gmp --with-mpfr=/opt/homebrew/opt/mpfr --with-mpc=/opt/homebrew/opt/libmpc --with-isl=/opt/homebrew/opt/isl --with-zstd=/opt/homebrew/opt/zstd --with-pkgversion='Homebrew GCC 16.1.0' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --with-system-zlib --build=aarch64-apple-darwin25 --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 16.1.0 (Homebrew GCC 16.1.0) 
+        COMPILER_PATH=/opt/homebrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/aarch64-apple-darwin25/16/:/opt/homebrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/
+        LIBRARY_PATH=/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16/:/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/:/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_17039' '-mmacosx-version-min=28.0.0' '-asm_macosx_version_min=28.0' '-nodefaultexport' '-mcpu=apple-m1' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_17039.'
+         /opt/homebrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/aarch64-apple-darwin25/16/collect2 -demangle -dynamic -arch arm64 -macos_version_min 28.0.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/ -o cmTC_17039 -L/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16 -L/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc -L/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16/../../.. -lemutls_w -lheapt_w -v CMakeFiles/cmTC_17039.dir/CMakeCCompilerABI.c.o -lgcc -lSystem -no_compact_unwind -rpath @loader_path -rpath /opt/homebrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc/aarch64-apple-darwin25/16 -rpath /opt/homebrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc -rpath /opt/homebrew/Cellar/gcc/16.1.0/lib/gcc/current
+        collect2 version 16.1.0
+        /usr/bin/ld -demangle -dynamic -arch arm64 -macos_version_min 28.0.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/ -o cmTC_17039 -L/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16 -L/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc -L/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16/../../.. -lemutls_w -lheapt_w -v CMakeFiles/cmTC_17039.dir/CMakeCCompilerABI.c.o -lgcc -lSystem -no_compact_unwind -rpath @loader_path -rpath /opt/homebrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc/aarch64-apple-darwin25/16 -rpath /opt/homebrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc -rpath /opt/homebrew/Cellar/gcc/16.1.0/lib/gcc/current
+        @(#)PROGRAM:ld PROJECT:ld-27037.1
+        BUILD 21:17:51 Aug 25 2026
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em armv8m.main armv8.1m.main
+        LTO support using: LLVM version 21.0.0 (static support for 30, runtime is 30)
+        TAPI support using: Apple TAPI version 21.0.0 (tapi-2100.3.8.1)
+        Library search paths:
+        	/opt/homebrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc/aarch64-apple-darwin25/16
+        	/opt/homebrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc
+        	/opt/homebrew/Cellar/gcc/16.1.0/lib/gcc/current
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/lib
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/lib/swift
+        Framework search paths:
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/System/Library/Frameworks
+        /opt/homebrew/bin/aarch64-apple-darwin25-gcc-16  -arch arm64  -v -Wl,-v CMakeFiles/cmTC_17039.dir/CMakeCCompilerABI.c.o -o cmTC_17039
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:122 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Effective list of requested architectures (possibly empty)  : ""
+      Effective list of architectures found in the ABI info binary: "arm64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16/include]
+          add: [/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16/include-fixed]
+          add: [/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include]
+          add: [/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/System/Library/Frameworks]
+        end of search list found
+        collapse include dir [/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16/include] ==> [/opt/homebrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc/aarch64-apple-darwin25/16/include]
+        collapse include dir [/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16/include-fixed] ==> [/opt/homebrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc/aarch64-apple-darwin25/16/include-fixed]
+        collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include]
+        collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/System/Library/Frameworks] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/System/Library/Frameworks]
+        implicit include dirs: [/opt/homebrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc/aarch64-apple-darwin25/16/include;/opt/homebrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc/aarch64-apple-darwin25/16/include-fixed;/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include;/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/System/Library/Frameworks]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/Users/wszystkonietak/Documents/projects/python-sandbox/build/CMakeFiles/CMakeScratch/TryCompile-XPuCAi']
+        ignore line: []
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_17039/fast]
+        ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_17039.dir/build.make CMakeFiles/cmTC_17039.dir/build]
+        ignore line: [Building C object CMakeFiles/cmTC_17039.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/opt/homebrew/bin/aarch64-apple-darwin25-gcc-16   -arch arm64   -v -Wl -v -o CMakeFiles/cmTC_17039.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/opt/homebrew/bin/aarch64-apple-darwin25-gcc-16]
+        ignore line: [Target: aarch64-apple-darwin25]
+        ignore line: [Configured with: ../configure --prefix=/opt/homebrew/opt/gcc --libdir=/opt/homebrew/opt/gcc/lib/gcc/current --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c c++ objc obj-c++ fortran --program-suffix=-16 --with-gmp=/opt/homebrew/opt/gmp --with-mpfr=/opt/homebrew/opt/mpfr --with-mpc=/opt/homebrew/opt/libmpc --with-isl=/opt/homebrew/opt/isl --with-zstd=/opt/homebrew/opt/zstd --with-pkgversion='Homebrew GCC 16.1.0' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --with-system-zlib --build=aarch64-apple-darwin25 --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 16.1.0 (Homebrew GCC 16.1.0) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_17039.dir/CMakeCCompilerABI.c.o' '-c' '-mmacosx-version-min=28.0.0' '-asm_macosx_version_min=28.0' '-nodefaultexport' '-mcpu=apple-m1' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_17039.dir/']
+        ignore line: [ /opt/homebrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/aarch64-apple-darwin25/16/cc1 -quiet -v -iprefix /opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16/ -D__DYNAMIC__ /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c -fPIC -quiet -dumpdir CMakeFiles/cmTC_17039.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mmacosx-version-min=28.0.0 -mcpu=apple-m1 -mlittle-endian -mabi=lp64 -version -o /var/folders/_d/vl2n0c1d6p3fm489p8ln6pmh0000gn/T//ccLdHr4h.s]
+        ignore line: [GNU C23 (Homebrew GCC 16.1.0) version 16.1.0 (aarch64-apple-darwin25)]
+        ignore line: [	compiled by GNU C version 16.1.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.4.1  isl version isl-0.28-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16/../../../../../../aarch64-apple-darwin25/include"]
+        ignore line: [ignoring duplicate directory "/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/aarch64-apple-darwin25/16/include"]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/local/include"]
+        ignore line: [ignoring duplicate directory "/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/aarch64-apple-darwin25/16/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/aarch64-apple-darwin25/16/../../../../../../aarch64-apple-darwin25/include"]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16/include]
+        ignore line: [ /opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16/include-fixed]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/System/Library/Frameworks]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 4e05b052dc7e4f76558d50866c86467f]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_17039.dir/CMakeCCompilerABI.c.o' '-c' '-mmacosx-version-min=28.0.0'  '-nodefaultexport' '-mcpu=apple-m1' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_17039.dir/']
+        ignore line: [ as -arch arm64 -v -mmacosx-version-min=28.0 -o CMakeFiles/cmTC_17039.dir/CMakeCCompilerABI.c.o /var/folders/_d/vl2n0c1d6p3fm489p8ln6pmh0000gn/T//ccLdHr4h.s]
+        ignore line: [Apple clang version 21.0.0 (clang-2100.3.34.2)]
+        ignore line: [Target: arm64-apple-darwin27.0.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1as -triple arm64-apple-macosx28.0.0 -target-sdk-version=27.0 -filetype obj -main-file-name ccLdHr4h.s -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +ccpp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +flagm -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -fdebug-compilation-dir=/Users/wszystkonietak/Documents/projects/python-sandbox/build/CMakeFiles/CMakeScratch/TryCompile-XPuCAi -dwarf-debug-producer "Apple clang version 21.0.0 (clang-2100.3.34.2)" -dwarf-version=5 -mrelocation-model pic -o CMakeFiles/cmTC_17039.dir/CMakeCCompilerABI.c.o /var/folders/_d/vl2n0c1d6p3fm489p8ln6pmh0000gn/T//ccLdHr4h.s]
+        ignore line: [COMPILER_PATH=/opt/homebrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/aarch64-apple-darwin25/16/:/opt/homebrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16/:/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/:/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_17039.dir/CMakeCCompilerABI.c.o' '-c' '-mmacosx-version-min=28.0.0'  '-nodefaultexport' '-mcpu=apple-m1' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_17039.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_17039]
+        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17039.dir/link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/opt/homebrew/bin/aarch64-apple-darwin25-gcc-16]
+        ignore line: [COLLECT_LTO_WRAPPER=/opt/homebrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/aarch64-apple-darwin25/16/lto-wrapper]
+        ignore line: [Target: aarch64-apple-darwin25]
+        ignore line: [Configured with: ../configure --prefix=/opt/homebrew/opt/gcc --libdir=/opt/homebrew/opt/gcc/lib/gcc/current --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c c++ objc obj-c++ fortran --program-suffix=-16 --with-gmp=/opt/homebrew/opt/gmp --with-mpfr=/opt/homebrew/opt/mpfr --with-mpc=/opt/homebrew/opt/libmpc --with-isl=/opt/homebrew/opt/isl --with-zstd=/opt/homebrew/opt/zstd --with-pkgversion='Homebrew GCC 16.1.0' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --with-system-zlib --build=aarch64-apple-darwin25 --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 16.1.0 (Homebrew GCC 16.1.0) ]
+        ignore line: [COMPILER_PATH=/opt/homebrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/aarch64-apple-darwin25/16/:/opt/homebrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16/:/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/:/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_17039' '-mmacosx-version-min=28.0.0' '-asm_macosx_version_min=28.0' '-nodefaultexport' '-mcpu=apple-m1' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_17039.']
+        link line: [ /opt/homebrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/aarch64-apple-darwin25/16/collect2 -demangle -dynamic -arch arm64 -macos_version_min 28.0.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/ -o cmTC_17039 -L/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16 -L/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc -L/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16/../../.. -lemutls_w -lheapt_w -v CMakeFiles/cmTC_17039.dir/CMakeCCompilerABI.c.o -lgcc -lSystem -no_compact_unwind -rpath @loader_path -rpath /opt/homebrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc/aarch64-apple-darwin25/16 -rpath /opt/homebrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc -rpath /opt/homebrew/Cellar/gcc/16.1.0/lib/gcc/current]
+          arg [/opt/homebrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/aarch64-apple-darwin25/16/collect2] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [arm64] ==> ignore
+          arg [-macos_version_min] ==> ignore
+          arg [28.0.0] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_17039] ==> ignore
+          arg [-L/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16] ==> dir [/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16]
+          arg [-L/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc] ==> dir [/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc]
+          arg [-L/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16/../../..] ==> dir [/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16/../../..]
+          arg [-lemutls_w] ==> lib [emutls_w]
+          arg [-lheapt_w] ==> lib [heapt_w]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_17039.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lSystem] ==> lib [System]
+          arg [-no_compact_unwind] ==> ignore
+          arg [-rpath] ==> ignore
+          arg [@loader_path] ==> ignore
+          arg [-rpath] ==> ignore
+          arg [/opt/homebrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc/aarch64-apple-darwin25/16] ==> ignore
+          arg [-rpath] ==> ignore
+          arg [/opt/homebrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc] ==> ignore
+          arg [-rpath] ==> ignore
+          arg [/opt/homebrew/Cellar/gcc/16.1.0/lib/gcc/current] ==> ignore
+        ignore line: [collect2 version 16.1.0]
+        ignore line: [/usr/bin/ld -demangle -dynamic -arch arm64 -macos_version_min 28.0.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/ -o cmTC_17039 -L/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16 -L/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc -L/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16/../../.. -lemutls_w -lheapt_w -v CMakeFiles/cmTC_17039.dir/CMakeCCompilerABI.c.o -lgcc -lSystem -no_compact_unwind -rpath @loader_path -rpath /opt/homebrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc/aarch64-apple-darwin25/16 -rpath /opt/homebrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc -rpath /opt/homebrew/Cellar/gcc/16.1.0/lib/gcc/current]
+        linker tool for 'C': /usr/bin/ld
+        Library search paths: [;/opt/homebrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc/aarch64-apple-darwin25/16;/opt/homebrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc;/opt/homebrew/Cellar/gcc/16.1.0/lib/gcc/current;/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/lib/swift]
+        Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/System/Library/Frameworks]
+        remove lib [System]
+        collapse library dir [/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16] ==> [/opt/homebrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc/aarch64-apple-darwin25/16]
+        collapse library dir [/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc] ==> [/opt/homebrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc]
+        collapse library dir [/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16/../../..] ==> [/opt/homebrew/Cellar/gcc/16.1.0/lib/gcc/current]
+        collapse library dir [/opt/homebrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc/aarch64-apple-darwin25/16] ==> [/opt/homebrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc/aarch64-apple-darwin25/16]
+        collapse library dir [/opt/homebrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc] ==> [/opt/homebrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc]
+        collapse library dir [/opt/homebrew/Cellar/gcc/16.1.0/lib/gcc/current] ==> [/opt/homebrew/Cellar/gcc/16.1.0/lib/gcc/current]
+        collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/lib]
+        collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/lib/swift] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/lib/swift]
+        collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/System/Library/Frameworks] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/System/Library/Frameworks]
+        implicit libs: [emutls_w;heapt_w;gcc]
+        implicit objs: []
+        implicit dirs: [/opt/homebrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc/aarch64-apple-darwin25/16;/opt/homebrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc;/opt/homebrew/Cellar/gcc/16.1.0/lib/gcc/current;/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/lib/swift]
+        implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/System/Library/Frameworks]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the C compiler's linker: "/usr/bin/ld" "-v"
+      @(#)PROGRAM:ld PROJECT:ld-27037.1
+      BUILD 21:17:51 Aug 25 2026
+      configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em armv8m.main armv8.1m.main
+      LTO support using: LLVM version 21.0.0 (static support for 30, runtime is 30)
+      TAPI support using: Apple TAPI version 21.0.0 (tapi-2100.3.8.1)
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/Users/wszystkonietak/Documents/projects/python-sandbox/build/CMakeFiles/CMakeScratch/TryCompile-ZYczpR"
+      binary: "/Users/wszystkonietak/Documents/projects/python-sandbox/build/CMakeFiles/CMakeScratch/TryCompile-ZYczpR"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/wszystkonietak/Documents/projects/python-sandbox/build/CMakeFiles/CMakeScratch/TryCompile-ZYczpR'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b5382/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_b5382.dir/build.make CMakeFiles/cmTC_b5382.dir/build
+        Building CXX object CMakeFiles/cmTC_b5382.dir/CMakeCXXCompilerABI.cpp.o
+        /opt/homebrew/bin/aarch64-apple-darwin25-g++-16   -arch arm64   -v -Wl,-v -o CMakeFiles/cmTC_b5382.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/opt/homebrew/bin/aarch64-apple-darwin25-g++-16
+        Target: aarch64-apple-darwin25
+        Configured with: ../configure --prefix=/opt/homebrew/opt/gcc --libdir=/opt/homebrew/opt/gcc/lib/gcc/current --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-16 --with-gmp=/opt/homebrew/opt/gmp --with-mpfr=/opt/homebrew/opt/mpfr --with-mpc=/opt/homebrew/opt/libmpc --with-isl=/opt/homebrew/opt/isl --with-zstd=/opt/homebrew/opt/zstd --with-pkgversion='Homebrew GCC 16.1.0' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --with-system-zlib --build=aarch64-apple-darwin25 --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 16.1.0 (Homebrew GCC 16.1.0) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b5382.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mmacosx-version-min=28.0.0' '-asm_macosx_version_min=28.0' '-nodefaultexport' '-mcpu=apple-m1' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_b5382.dir/'
+         /opt/homebrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/aarch64-apple-darwin25/16/cc1plus -quiet -v -iprefix /opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16/ -D__DYNAMIC__ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp -fPIC -quiet -dumpdir CMakeFiles/cmTC_b5382.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mmacosx-version-min=28.0.0 -mcpu=apple-m1 -mlittle-endian -mabi=lp64 -version -o /var/folders/_d/vl2n0c1d6p3fm489p8ln6pmh0000gn/T//cc8iX4CR.s
+        GNU C++20 (Homebrew GCC 16.1.0) version 16.1.0 (aarch64-apple-darwin25)
+        	compiled by GNU C version 16.1.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.4.1, isl version isl-0.28-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16/../../../../../../aarch64-apple-darwin25/include"
+        ignoring duplicate directory "/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/aarch64-apple-darwin25/16/../../../../../../include/c++/16"
+        ignoring duplicate directory "/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/aarch64-apple-darwin25/16/../../../../../../include/c++/16/aarch64-apple-darwin25"
+        ignoring duplicate directory "/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/aarch64-apple-darwin25/16/../../../../../../include/c++/16/backward"
+        ignoring duplicate directory "/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/aarch64-apple-darwin25/16/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/local/include"
+        ignoring duplicate directory "/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/aarch64-apple-darwin25/16/include-fixed"
+        ignoring nonexistent directory "/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/aarch64-apple-darwin25/16/../../../../../../aarch64-apple-darwin25/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16/../../../../../../include/c++/16
+         /opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16/../../../../../../include/c++/16/aarch64-apple-darwin25
+         /opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16/../../../../../../include/c++/16/backward
+         /opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16/include
+         /opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16/include-fixed
+         /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/System/Library/Frameworks
+        End of search list.
+        Compiler executable checksum: 964af8079ed7b7148765d812a4a0d7e5
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b5382.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mmacosx-version-min=28.0.0'  '-nodefaultexport' '-mcpu=apple-m1' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_b5382.dir/'
+         as -arch arm64 -v -mmacosx-version-min=28.0 -o CMakeFiles/cmTC_b5382.dir/CMakeCXXCompilerABI.cpp.o /var/folders/_d/vl2n0c1d6p3fm489p8ln6pmh0000gn/T//cc8iX4CR.s
+        Apple clang version 21.0.0 (clang-2100.3.34.2)
+        Target: arm64-apple-darwin27.0.0
+        Thread model: posix
+        InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1as -triple arm64-apple-macosx28.0.0 -target-sdk-version=27.0 -filetype obj -main-file-name cc8iX4CR.s -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +ccpp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +flagm -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -fdebug-compilation-dir=/Users/wszystkonietak/Documents/projects/python-sandbox/build/CMakeFiles/CMakeScratch/TryCompile-ZYczpR -dwarf-debug-producer "Apple clang version 21.0.0 (clang-2100.3.34.2)" -dwarf-version=5 -mrelocation-model pic -o CMakeFiles/cmTC_b5382.dir/CMakeCXXCompilerABI.cpp.o /var/folders/_d/vl2n0c1d6p3fm489p8ln6pmh0000gn/T//cc8iX4CR.s
+        COMPILER_PATH=/opt/homebrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/aarch64-apple-darwin25/16/:/opt/homebrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/
+        LIBRARY_PATH=/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16/:/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/:/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b5382.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mmacosx-version-min=28.0.0'  '-nodefaultexport' '-mcpu=apple-m1' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_b5382.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_b5382
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b5382.dir/link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=/opt/homebrew/bin/aarch64-apple-darwin25-g++-16
+        COLLECT_LTO_WRAPPER=/opt/homebrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/aarch64-apple-darwin25/16/lto-wrapper
+        Target: aarch64-apple-darwin25
+        Configured with: ../configure --prefix=/opt/homebrew/opt/gcc --libdir=/opt/homebrew/opt/gcc/lib/gcc/current --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c,c++,objc,obj-c++,fortran --program-suffix=-16 --with-gmp=/opt/homebrew/opt/gmp --with-mpfr=/opt/homebrew/opt/mpfr --with-mpc=/opt/homebrew/opt/libmpc --with-isl=/opt/homebrew/opt/isl --with-zstd=/opt/homebrew/opt/zstd --with-pkgversion='Homebrew GCC 16.1.0' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --with-system-zlib --build=aarch64-apple-darwin25 --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 16.1.0 (Homebrew GCC 16.1.0) 
+        COMPILER_PATH=/opt/homebrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/aarch64-apple-darwin25/16/:/opt/homebrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/
+        LIBRARY_PATH=/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16/:/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/:/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b5382' '-mmacosx-version-min=28.0.0' '-asm_macosx_version_min=28.0' '-nodefaultexport' '-mcpu=apple-m1' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_b5382.'
+         /opt/homebrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/aarch64-apple-darwin25/16/collect2 -demangle -dynamic -arch arm64 -macos_version_min 28.0.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/ -o cmTC_b5382 -L/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16 -L/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc -L/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16/../../.. -lemutls_w -lheapt_w -v CMakeFiles/cmTC_b5382.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lgcc -lSystem -no_compact_unwind -rpath @loader_path -rpath /opt/homebrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc/aarch64-apple-darwin25/16 -rpath /opt/homebrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc -rpath /opt/homebrew/Cellar/gcc/16.1.0/lib/gcc/current
+        collect2 version 16.1.0
+        /usr/bin/ld -demangle -dynamic -arch arm64 -macos_version_min 28.0.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/ -o cmTC_b5382 -L/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16 -L/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc -L/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16/../../.. -lemutls_w -lheapt_w -v CMakeFiles/cmTC_b5382.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lgcc -lSystem -no_compact_unwind -rpath @loader_path -rpath /opt/homebrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc/aarch64-apple-darwin25/16 -rpath /opt/homebrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc -rpath /opt/homebrew/Cellar/gcc/16.1.0/lib/gcc/current
+        @(#)PROGRAM:ld PROJECT:ld-27037.1
+        BUILD 21:17:51 Aug 25 2026
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em armv8m.main armv8.1m.main
+        LTO support using: LLVM version 21.0.0 (static support for 30, runtime is 30)
+        TAPI support using: Apple TAPI version 21.0.0 (tapi-2100.3.8.1)
+        Library search paths:
+        	/opt/homebrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc/aarch64-apple-darwin25/16
+        	/opt/homebrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc
+        	/opt/homebrew/Cellar/gcc/16.1.0/lib/gcc/current
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/lib
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/lib/swift
+        Framework search paths:
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/System/Library/Frameworks
+        /opt/homebrew/bin/aarch64-apple-darwin25-g++-16  -arch arm64  -v -Wl,-v CMakeFiles/cmTC_b5382.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_b5382
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:122 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Effective list of requested architectures (possibly empty)  : ""
+      Effective list of architectures found in the ABI info binary: "arm64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16/../../../../../../include/c++/16]
+          add: [/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16/../../../../../../include/c++/16/aarch64-apple-darwin25]
+          add: [/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16/../../../../../../include/c++/16/backward]
+          add: [/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16/include]
+          add: [/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16/include-fixed]
+          add: [/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include]
+          add: [/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/System/Library/Frameworks]
+        end of search list found
+        collapse include dir [/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16/../../../../../../include/c++/16] ==> [/opt/homebrew/Cellar/gcc/16.1.0/include/c++/16]
+        collapse include dir [/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16/../../../../../../include/c++/16/aarch64-apple-darwin25] ==> [/opt/homebrew/Cellar/gcc/16.1.0/include/c++/16/aarch64-apple-darwin25]
+        collapse include dir [/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16/../../../../../../include/c++/16/backward] ==> [/opt/homebrew/Cellar/gcc/16.1.0/include/c++/16/backward]
+        collapse include dir [/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16/include] ==> [/opt/homebrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc/aarch64-apple-darwin25/16/include]
+        collapse include dir [/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16/include-fixed] ==> [/opt/homebrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc/aarch64-apple-darwin25/16/include-fixed]
+        collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include]
+        collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/System/Library/Frameworks] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/System/Library/Frameworks]
+        implicit include dirs: [/opt/homebrew/Cellar/gcc/16.1.0/include/c++/16;/opt/homebrew/Cellar/gcc/16.1.0/include/c++/16/aarch64-apple-darwin25;/opt/homebrew/Cellar/gcc/16.1.0/include/c++/16/backward;/opt/homebrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc/aarch64-apple-darwin25/16/include;/opt/homebrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc/aarch64-apple-darwin25/16/include-fixed;/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include;/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/System/Library/Frameworks]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/Users/wszystkonietak/Documents/projects/python-sandbox/build/CMakeFiles/CMakeScratch/TryCompile-ZYczpR']
+        ignore line: []
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b5382/fast]
+        ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_b5382.dir/build.make CMakeFiles/cmTC_b5382.dir/build]
+        ignore line: [Building CXX object CMakeFiles/cmTC_b5382.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/opt/homebrew/bin/aarch64-apple-darwin25-g++-16   -arch arm64   -v -Wl -v -o CMakeFiles/cmTC_b5382.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/opt/homebrew/bin/aarch64-apple-darwin25-g++-16]
+        ignore line: [Target: aarch64-apple-darwin25]
+        ignore line: [Configured with: ../configure --prefix=/opt/homebrew/opt/gcc --libdir=/opt/homebrew/opt/gcc/lib/gcc/current --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c c++ objc obj-c++ fortran --program-suffix=-16 --with-gmp=/opt/homebrew/opt/gmp --with-mpfr=/opt/homebrew/opt/mpfr --with-mpc=/opt/homebrew/opt/libmpc --with-isl=/opt/homebrew/opt/isl --with-zstd=/opt/homebrew/opt/zstd --with-pkgversion='Homebrew GCC 16.1.0' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --with-system-zlib --build=aarch64-apple-darwin25 --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 16.1.0 (Homebrew GCC 16.1.0) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b5382.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mmacosx-version-min=28.0.0' '-asm_macosx_version_min=28.0' '-nodefaultexport' '-mcpu=apple-m1' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_b5382.dir/']
+        ignore line: [ /opt/homebrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/aarch64-apple-darwin25/16/cc1plus -quiet -v -iprefix /opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16/ -D__DYNAMIC__ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp -fPIC -quiet -dumpdir CMakeFiles/cmTC_b5382.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mmacosx-version-min=28.0.0 -mcpu=apple-m1 -mlittle-endian -mabi=lp64 -version -o /var/folders/_d/vl2n0c1d6p3fm489p8ln6pmh0000gn/T//cc8iX4CR.s]
+        ignore line: [GNU C++20 (Homebrew GCC 16.1.0) version 16.1.0 (aarch64-apple-darwin25)]
+        ignore line: [	compiled by GNU C version 16.1.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.4.1  isl version isl-0.28-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16/../../../../../../aarch64-apple-darwin25/include"]
+        ignore line: [ignoring duplicate directory "/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/aarch64-apple-darwin25/16/../../../../../../include/c++/16"]
+        ignore line: [ignoring duplicate directory "/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/aarch64-apple-darwin25/16/../../../../../../include/c++/16/aarch64-apple-darwin25"]
+        ignore line: [ignoring duplicate directory "/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/aarch64-apple-darwin25/16/../../../../../../include/c++/16/backward"]
+        ignore line: [ignoring duplicate directory "/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/aarch64-apple-darwin25/16/include"]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/local/include"]
+        ignore line: [ignoring duplicate directory "/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/aarch64-apple-darwin25/16/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/aarch64-apple-darwin25/16/../../../../../../aarch64-apple-darwin25/include"]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16/../../../../../../include/c++/16]
+        ignore line: [ /opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16/../../../../../../include/c++/16/aarch64-apple-darwin25]
+        ignore line: [ /opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16/../../../../../../include/c++/16/backward]
+        ignore line: [ /opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16/include]
+        ignore line: [ /opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16/include-fixed]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/System/Library/Frameworks]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 964af8079ed7b7148765d812a4a0d7e5]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b5382.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mmacosx-version-min=28.0.0'  '-nodefaultexport' '-mcpu=apple-m1' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_b5382.dir/']
+        ignore line: [ as -arch arm64 -v -mmacosx-version-min=28.0 -o CMakeFiles/cmTC_b5382.dir/CMakeCXXCompilerABI.cpp.o /var/folders/_d/vl2n0c1d6p3fm489p8ln6pmh0000gn/T//cc8iX4CR.s]
+        ignore line: [Apple clang version 21.0.0 (clang-2100.3.34.2)]
+        ignore line: [Target: arm64-apple-darwin27.0.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1as -triple arm64-apple-macosx28.0.0 -target-sdk-version=27.0 -filetype obj -main-file-name cc8iX4CR.s -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +ccpp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +flagm -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -fdebug-compilation-dir=/Users/wszystkonietak/Documents/projects/python-sandbox/build/CMakeFiles/CMakeScratch/TryCompile-ZYczpR -dwarf-debug-producer "Apple clang version 21.0.0 (clang-2100.3.34.2)" -dwarf-version=5 -mrelocation-model pic -o CMakeFiles/cmTC_b5382.dir/CMakeCXXCompilerABI.cpp.o /var/folders/_d/vl2n0c1d6p3fm489p8ln6pmh0000gn/T//cc8iX4CR.s]
+        ignore line: [COMPILER_PATH=/opt/homebrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/aarch64-apple-darwin25/16/:/opt/homebrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16/:/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/:/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_b5382.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mmacosx-version-min=28.0.0'  '-nodefaultexport' '-mcpu=apple-m1' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_b5382.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_b5382]
+        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b5382.dir/link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/opt/homebrew/bin/aarch64-apple-darwin25-g++-16]
+        ignore line: [COLLECT_LTO_WRAPPER=/opt/homebrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/aarch64-apple-darwin25/16/lto-wrapper]
+        ignore line: [Target: aarch64-apple-darwin25]
+        ignore line: [Configured with: ../configure --prefix=/opt/homebrew/opt/gcc --libdir=/opt/homebrew/opt/gcc/lib/gcc/current --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c c++ objc obj-c++ fortran --program-suffix=-16 --with-gmp=/opt/homebrew/opt/gmp --with-mpfr=/opt/homebrew/opt/mpfr --with-mpc=/opt/homebrew/opt/libmpc --with-isl=/opt/homebrew/opt/isl --with-zstd=/opt/homebrew/opt/zstd --with-pkgversion='Homebrew GCC 16.1.0' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --with-system-zlib --build=aarch64-apple-darwin25 --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 16.1.0 (Homebrew GCC 16.1.0) ]
+        ignore line: [COMPILER_PATH=/opt/homebrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/aarch64-apple-darwin25/16/:/opt/homebrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16/:/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/:/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b5382' '-mmacosx-version-min=28.0.0' '-asm_macosx_version_min=28.0' '-nodefaultexport' '-mcpu=apple-m1' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_b5382.']
+        link line: [ /opt/homebrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/aarch64-apple-darwin25/16/collect2 -demangle -dynamic -arch arm64 -macos_version_min 28.0.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/ -o cmTC_b5382 -L/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16 -L/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc -L/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16/../../.. -lemutls_w -lheapt_w -v CMakeFiles/cmTC_b5382.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lgcc -lSystem -no_compact_unwind -rpath @loader_path -rpath /opt/homebrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc/aarch64-apple-darwin25/16 -rpath /opt/homebrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc -rpath /opt/homebrew/Cellar/gcc/16.1.0/lib/gcc/current]
+          arg [/opt/homebrew/Cellar/gcc/16.1.0/bin/../libexec/gcc/aarch64-apple-darwin25/16/collect2] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [arm64] ==> ignore
+          arg [-macos_version_min] ==> ignore
+          arg [28.0.0] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_b5382] ==> ignore
+          arg [-L/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16] ==> dir [/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16]
+          arg [-L/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc] ==> dir [/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc]
+          arg [-L/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16/../../..] ==> dir [/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16/../../..]
+          arg [-lemutls_w] ==> lib [emutls_w]
+          arg [-lheapt_w] ==> lib [heapt_w]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_b5382.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lSystem] ==> lib [System]
+          arg [-no_compact_unwind] ==> ignore
+          arg [-rpath] ==> ignore
+          arg [@loader_path] ==> ignore
+          arg [-rpath] ==> ignore
+          arg [/opt/homebrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc/aarch64-apple-darwin25/16] ==> ignore
+          arg [-rpath] ==> ignore
+          arg [/opt/homebrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc] ==> ignore
+          arg [-rpath] ==> ignore
+          arg [/opt/homebrew/Cellar/gcc/16.1.0/lib/gcc/current] ==> ignore
+        ignore line: [collect2 version 16.1.0]
+        ignore line: [/usr/bin/ld -demangle -dynamic -arch arm64 -macos_version_min 28.0.0 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/ -o cmTC_b5382 -L/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16 -L/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc -L/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16/../../.. -lemutls_w -lheapt_w -v CMakeFiles/cmTC_b5382.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lgcc -lSystem -no_compact_unwind -rpath @loader_path -rpath /opt/homebrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc/aarch64-apple-darwin25/16 -rpath /opt/homebrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc -rpath /opt/homebrew/Cellar/gcc/16.1.0/lib/gcc/current]
+        linker tool for 'CXX': /usr/bin/ld
+        Library search paths: [;/opt/homebrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc/aarch64-apple-darwin25/16;/opt/homebrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc;/opt/homebrew/Cellar/gcc/16.1.0/lib/gcc/current;/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/lib/swift]
+        Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/System/Library/Frameworks]
+        remove lib [System]
+        collapse library dir [/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16] ==> [/opt/homebrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc/aarch64-apple-darwin25/16]
+        collapse library dir [/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc] ==> [/opt/homebrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc]
+        collapse library dir [/opt/homebrew/Cellar/gcc/16.1.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin25/16/../../..] ==> [/opt/homebrew/Cellar/gcc/16.1.0/lib/gcc/current]
+        collapse library dir [/opt/homebrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc/aarch64-apple-darwin25/16] ==> [/opt/homebrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc/aarch64-apple-darwin25/16]
+        collapse library dir [/opt/homebrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc] ==> [/opt/homebrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc]
+        collapse library dir [/opt/homebrew/Cellar/gcc/16.1.0/lib/gcc/current] ==> [/opt/homebrew/Cellar/gcc/16.1.0/lib/gcc/current]
+        collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/lib]
+        collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/lib/swift] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/lib/swift]
+        collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/System/Library/Frameworks] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/System/Library/Frameworks]
+        implicit libs: [emutls_w;heapt_w;stdc++;gcc]
+        implicit objs: []
+        implicit dirs: [/opt/homebrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc/aarch64-apple-darwin25/16;/opt/homebrew/Cellar/gcc/16.1.0/lib/gcc/current/gcc;/opt/homebrew/Cellar/gcc/16.1.0/lib/gcc/current;/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/lib/swift]
+        implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/System/Library/Frameworks]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "/usr/bin/ld" "-v"
+      @(#)PROGRAM:ld PROJECT:ld-27037.1
+      BUILD 21:17:51 Aug 25 2026
+      configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em armv8m.main armv8.1m.main
+      LTO support using: LLVM version 21.0.0 (static support for 30, runtime is 30)
+      TAPI support using: Apple TAPI version 21.0.0 (tapi-2100.3.8.1)
+...

@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/Users/wszystkonietak/Documents/projects/python-sandbox/build",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin25-g++-16   -g -std=gnu++23 -arch arm64 -o CMakeFiles/binary_search_tree.dir/main.cpp.o -c /Users/wszystkonietak/Documents/projects/python-sandbox/bst/main.cpp",
+  "file": "/Users/wszystkonietak/Documents/projects/python-sandbox/bst/main.cpp",
+  "output": "CMakeFiles/binary_search_tree.dir/main.cpp.o"
+}
+]
